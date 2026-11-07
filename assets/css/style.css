@@ -2,11 +2,11 @@
 
 /* Profile portrait hero layout */
 .hero{grid-template-columns:1.12fr .88fr;gap:64px}
-.hero-photo-wrap{position:relative;justify-self:end;width:100%;max-width:340px;padding:18px 18px 46px 0}
+.hero-photo-wrap{position:relative;justify-self:end;width:100%;max-width:180px;padding:10px 10px 42px 0}
 .hero-photo{position:relative;z-index:2;display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 28%;border-radius:18px;box-shadow:0 22px 55px rgba(48,32,79,.18)}
 .photo-accent{position:absolute;display:block;border-radius:18px}
 .photo-accent-one{z-index:1;inset:0 0 28px 22px;background:#e8def4}
 .photo-accent-two{z-index:0;width:84px;height:84px;right:-20px;top:-18px;border:2px solid #d6ae58;border-radius:50%}
 .photo-caption{position:absolute;z-index:3;right:0;bottom:0;margin:0;padding:11px 15px;background:#30204f;color:#fff;border-radius:10px;font-size:10px;letter-spacing:.04em;box-shadow:0 8px 22px rgba(48,32,79,.16)}
-@media(max-width:850px){.hero{grid-template-columns:1fr .78fr;gap:28px}.hero-photo-wrap{max-width:290px}}
-@media(max-width:620px){.hero{display:grid;grid-template-columns:1fr;gap:18px}.hero-photo-wrap{justify-self:center;width:min(68%,260px);max-width:260px;padding:12px 12px 42px 0;margin:12px auto 8px}.photo-caption{font-size:9px;right:-8px}.photo-accent-two{width:62px;height:62px;right:-12px;top:-10px}}
+@media(max-width:850px){.hero{grid-template-columns:1fr .78fr;gap:28px}.hero-photo-wrap{max-width:180px}}
+@media(max-width:620px){.hero{display:grid;grid-template-columns:1fr;gap:18px}.hero-photo-wrap{justify-self:center;width:min(58%,160px);max-width:160px;padding:10px 10px 40px 0;margin:12px auto 8px}.photo-caption{font-size:9px;right:-8px}.photo-accent-two{width:62px;height:62px;right:-12px;top:-10px}}
