@@ -1,33 +1,40 @@
 # Digital Business Operations Support
 
 **Organisation:** International School of Professionalism  
-**Contribution type:** Fellow-member / volunteer contribution
+**Contribution type:** Fellow-member contribution (not paid employment or contracted staff work)
 
 ## Overview
 
-Practical digital operations contributions made in support of the organisation.
+I have contributed to selected digital activities in support of the organisation, including Meta advertising account setup and approved website content updates.
 
 ## Meta Ads account setup
 
-Describe the work completed, which may include:
-- Creating and configuring a Meta advertising account.
-- Setting up a Meta Business Portfolio / Business Suite.
+My completed setup activities included:
+- Creating and configuring the Meta advertising account.
+- Setting up the Meta Business Portfolio / Business Suite.
 - Connecting the organisation's Facebook Page and/or Instagram account.
 - Configuring billing and payment settings.
 
-Include only tasks you personally completed and evidence you are authorised to share.
+This describes account and business-asset setup. It should not be read as a claim that I managed advertising campaigns, optimised ad performance or delivered campaign results.
 
 ## Website content management
 
-Describe your contribution to posting or updating approved content through the organisation's website dashboard.
+Through the organisation's website dashboard, I can post and update content that has been approved for publication. This contribution involves working within the existing website process and following the organisation's content approval.
+
+## Skills demonstrated
+
+- Navigating Meta business tools and account settings.
+- Connecting and organising digital business assets.
+- Following setup steps carefully.
+- Updating approved website content through a dashboard.
+- Working within an organisational role and approval process.
 
 ## Evidence to add
 
-- Approved screenshots with private details removed.
-- A short explanation of the setup or update process.
-- The tools and platforms used.
-- The scope of your contribution.
+- Approved, redacted screenshots of relevant setup screens.
+- A brief walkthrough of the tasks completed.
+- An example of a website content update, if authorised.
 
-## Accuracy note
+## Accuracy and sharing note
 
-This was a fellow-member contribution, not paid employment or a contracted staff role. Present it accordingly.
+This was a fellow-member contribution, not paid employment or a contracted role. Include only tasks personally completed and evidence authorised for public sharing. Do not publish account IDs, billing details, login information or private organisational data.
