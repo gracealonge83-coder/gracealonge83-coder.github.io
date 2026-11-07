@@ -1,67 +1,47 @@
 # Grace Alonge — Professional Portfolio
 
-A responsive, static portfolio website for GitHub Pages.
+A responsive, static professional portfolio published with GitHub Pages.
 
-## Planned repository name
+**Live website:** https://gracealonge83-coder.github.io
 
-`gracealonge83-coder.github.io`
+## Portfolio focus
 
-## Website address
+- **Product development:** QubWatch, a cohort-built business activity monitoring product.
+- **Application testing & QA:** Private beta testing and documentation for Portioned.
+- **Digital business operations support:** Meta Ads account setup and approved website content updates as a fellow member of the International School of Professionalism.
 
-`https://gracealonge83-coder.github.io`
+Sales data analysis and data cleaning & preparation learning projects are maintained separately through my Webbo3 Academy portfolio work.
 
-## Sections
+## Website sections
 
-- Home
-- About
-- Selected work
-  - QubWatch — product development
-  - Portioned — application beta testing
-  - Digital business operations support — Meta Ads setup and website content management
-- What I do
-- Contact
+- Home and professional introduction
+- About and working approach
+- Selected projects and contributions
+- Areas of practice
+- Contact and GitHub
 
-## Project structure
+## Project pages
 
-```text
-gracealonge83-coder.github.io/
-├── index.html
-├── README.md
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-│       └── README.md
-└── projects/
-    ├── qubwatch/
-    │   └── README.md
-    ├── portioned/
-    │   └── README.md
-    └── business-operations/
-        └── README.md
-```
+- [QubWatch — Product Development](projects/qubwatch/README.md)
+- [Portioned — Private Beta Testing](projects/portioned/README.md)
+- [Digital Business Operations Support](projects/business-operations/README.md)
 
-## Before publishing
+## Technology
 
-1. Replace the LinkedIn placeholder with your real public profile URL.
-2. Replace `YOUR-EMAIL@example.com` with the professional email address you want to publish.
-3. Review all project descriptions and add only evidence that you are authorised to share.
-4. Add approved screenshots to `assets/images/` and update the project pages.
-5. Check the website on desktop and mobile.
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
 
-## Publish with GitHub Pages
+This is a static website and does not require a build step or paid hosting.
 
-1. Create a **new public repository** named exactly `gracealonge83-coder.github.io`.
-2. Upload the contents of this folder to the repository root (not the containing folder).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. Wait for the Pages deployment to complete and open the website address above.
+## Portfolio accuracy and privacy
 
-This is a standalone static website. It does not require Node.js, a build step, a database or paid hosting.
+Project pages distinguish personal contributions from team work, learning activities and volunteer contributions. Private beta and organisational evidence should only be published with permission. Never commit passwords, access tokens, billing details or private user information.
 
-## Important separation
+## Future improvements
 
-This portfolio is separate from the existing `qubwatch-mvp` repository. Do not rename, replace or upload these portfolio files into the QubWatch repository.
+- Add a professional profile photo after confirming its placement.
+- Add approved, redacted screenshots and sample documentation.
+- Add LinkedIn and professional email links when the correct public details are supplied.
+- Continue refining project case studies as more work is completed.
