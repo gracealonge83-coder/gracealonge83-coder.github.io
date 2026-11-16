@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An anonymised sample bug report based on a Portioned private beta testing observation by Grace Alonge.">
+  <title>Sample Bug Report | Grace Alonge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="project-page">
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="../../index.html"><span class="brand-mark">GA</span><span>Grace Alonge</span></a>
+    <div class="nav-links project-nav"><a href="../../index.html#about">About</a><a href="../../index.html#work">Selected work</a><a href="../../index.html#contact" class="nav-contact">Contact</a></div>
+  </nav></header>
+  <main id="main" class="project-main container">
+    <a class="back-link" href="index.html">← Back to Portioned case study</a>
+    <section class="project-hero">
+      <p class="eyebrow">APPLICATION TESTING · ANONYMISED WORK SAMPLE</p>
+      <h1>Sample bug report</h1>
+      <p class="project-intro">A clear record of an observed behaviour for developer review.</p>
+      <p class="project-summary">This sample is based on an observation made during a private beta testing activity. Product and participant identifiers have been omitted. The report demonstrates how I document steps, expected behaviour and actual behaviour without presenting an unconfirmed observation as a verified product defect.</p>
+      <div class="project-tags"><span>Functional observation</span><span>Reproduction steps</span><span>Expected vs actual</span><span>Unconfirmed</span></div>
+    </section>
+    <section class="project-content-grid">
+      <article class="project-content">
+        <h2>Issue summary</h2>
+        <div class="detail-card">
+          <dl>
+            <dt>Report ID</dt><dd>GAE-SAMPLE-001</dd>
+            <dt>Title</dt><dd>Overview expense total does not appear to refresh after editing a recurring expense</dd>
+            <dt>Area</dt><dd>Recurring expenses / Overview</dd>
+            <dt>Environment</dt><dd>Private beta application, tested through the PWA</dd>
+            <dt>Test data</dt><dd>Fictional practice data</dd>
+            <dt>Priority</dt><dd>Not assigned — for product team assessment</dd>
+            <dt>Status</dt><dd>Observation recorded; confirmation by product team not known</dd>
+          </dl>
+        </div>
+        <h2>Precondition</h2>
+        <p>A practice profile contains a recurring expense and the Overview displays an expense total.</p>
+        <h2>Steps to reproduce</h2>
+        <ol>
+          <li>Open the practice profile containing the recurring expense.</li>
+          <li>Note the current recurring expense amount and the Overview Total Expenses figure.</li>
+          <li>Edit the recurring expense amount from ₦10,000 to ₦12,000.</li>
+          <li>Save the change.</li>
+          <li>Return to the Overview and check the Total Expenses figure.</li>
+        </ol>
+        <h2>Expected behaviour</h2>
+        <p>After the edited recurring expense is saved, the relevant Overview expense total should recalculate to reflect the updated amount, according to the application's expense calculation rules.</p>
+        <h2>Actual behaviour observed</h2>
+        <p>During the test, the Overview Total Expenses figure remained at ₦81,000 after the recurring expense amount was changed from ₦10,000 to ₦12,000.</p>
+        <h2>Evidence and notes</h2>
+        <p>The observation was recorded in the tester's notes. No screenshot or private beta data is reproduced in this public sample. The product team's confirmation and the underlying calculation rules were not available to the tester at the time of reporting.</p>
+        <h2>Suggested follow-up</h2>
+        <ul>
+          <li>Check whether the edited recurring expense is included in the Overview calculation.</li>
+          <li>Confirm whether the Overview is expected to refresh immediately or after another action.</li>
+          <li>Retest the same workflow after any product update and record the result.</li>
+        </ul>
+        <p class="care-note">This is an anonymised portfolio sample derived from a real tester observation. It is not a claim that the product team confirmed or resolved the issue. Amounts and details are included only to explain the observed test scenario.</p>
+      </article>
+      <aside class="project-sidebar">
+        <div class="detail-card"><p class="detail-label">WHAT THIS SAMPLE SHOWS</p><dl><dt>Test documentation</dt><dd>Clear, repeatable steps</dd><dt>Expected result</dt><dd>Behaviour described before testing</dd><dt>Actual result</dt><dd>Observed outcome recorded separately</dd><dt>Professional judgement</dt><dd>Unconfirmed observations are labelled honestly</dd></dl></div>
+        <div class="detail-card"><p class="detail-label">RELATED WORK</p><p class="sidebar-copy">Read the full Portioned private beta testing case study for the wider testing context and other observations.</p><a class="sidebar-link" href="index.html">View Portioned case study →</a></div>
+      </aside>
+    </section>
+    <div class="project-next"><span>MORE FROM MY PORTFOLIO</span><a href="../../index.html#work">Return to selected work →</a></div>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Grace Alonge</span><span>Built with care and a commitment to learning.</span><a href="../../index.html#work">Back to portfolio ↑</a></div></footer>
+</body>
+</html>
