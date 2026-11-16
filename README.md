@@ -12,6 +12,10 @@ A responsive, static professional portfolio published with GitHub Pages.
 
 Sales data analysis and data cleaning & preparation learning projects are maintained separately through my Webbo3 Academy portfolio work.
 
+## Recognition
+
+- **UriBuild Certificate of Participation:** Portioned & My UriBuild Private Beta Programme; issued 13 November 2026 for programme participation, product testing and feedback. [Verify certificate](https://uribuild.com/recognition/afedfe99-8903-477f-a4f6-9b7d6ccdb828). This is participation recognition, not an accredited qualification.
+
 ## Website sections
 
 - Home and professional introduction
