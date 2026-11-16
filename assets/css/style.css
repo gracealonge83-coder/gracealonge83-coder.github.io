@@ -53,3 +53,14 @@
 .project-screenshot{margin:18px 0 34px;padding:12px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 10px 30px rgba(48,32,79,.06)}
 .project-screenshot img{display:block;width:100%;height:auto;border-radius:9px}
 .project-screenshot figcaption{padding:12px 4px 2px;color:var(--muted);font-size:12px;line-height:1.7}
+
+
+/* Featured Grace App Testing Engagements service row */
+.service-item.service-featured{margin:0 0 12px;padding:22px 22px;background:#f5f1f9;border:1px solid #e7dff0;border-radius:14px;grid-template-columns:70px 1fr 30px}
+.service-featured .service-number{color:#7651a8}
+.service-kicker{font-size:9px!important;letter-spacing:.15em;font-weight:800;text-transform:uppercase;color:#7651a8!important;margin:0 0 7px!important}
+.service-featured h3{font-size:20px}
+.service-featured p:not(.service-kicker){max-width:660px;margin:7px 0 10px}
+.service-feature-link{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:#168f80}
+.service-feature-link:hover{text-decoration:underline}
+@media(max-width:620px){.service-item.service-featured{grid-template-columns:34px 1fr 20px;padding:18px 14px}.service-featured h3{font-size:17px}}
