@@ -64,3 +64,17 @@
 .service-feature-link{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:#168f80}
 .service-feature-link:hover{text-decoration:underline}
 @media(max-width:620px){.service-item.service-featured{grid-template-columns:34px 1fr 20px;padding:18px 14px}.service-featured h3{font-size:17px}}
+
+
+/* Accessibility and responsive polish */
+:where(a, button):focus-visible{outline:3px solid #168f80;outline-offset:4px;border-radius:4px}
+.service-featured{transition:background-color .18s ease,border-color .18s ease}
+.service-featured:hover{background:#f1ebf8;border-color:#d9cbe8}
+@media(max-width:620px){
+  .service-featured .service-feature-link{line-height:1.55}
+  .service-featured .service-arrow{align-self:start;padding-top:2px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important}
+}
